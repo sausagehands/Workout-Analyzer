@@ -3,7 +3,7 @@ Squat exercise detector
 Tracks squat repetitions using knee angle
 """
 from enum import Enum
-from core_cv.detection.detector_blueprint import ExerciseDetector
+from core_cv2.detection.detector_blueprint import ExerciseDetector
 from config.app_constants import SQUAT_THRESHOLDS
 
 

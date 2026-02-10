@@ -8,7 +8,7 @@ import math
 import pytest
 import numpy as np
 
-from core_cv.analysis.angle_math import calculate_angle, get_distance, normalize_angle
+from core_cv2.analysis.angle_math import calculate_angle, get_distance, normalize_angle
 
 
 # ---------------------------------------------------------------------------

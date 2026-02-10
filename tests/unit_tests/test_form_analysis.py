@@ -11,7 +11,7 @@ Thresholds from app_constants:
 """
 import pytest
 
-from core_cv.analysis.form_analysis import (
+from core_cv2.analysis.form_analysis import (
     analyze_form,
     analyze_squat_form,
     analyze_pushup_form,

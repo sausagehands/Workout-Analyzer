@@ -6,12 +6,12 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from cv.pose_detection import PoseDetector
-from core_cv.analysis.angle_math import calculate_angle
-from core_cv.analysis.form_analysis import analyze_squat_form, analyze_pushup_form, analyze_curl_form
+from core_cv2.analysis.angle_math import calculate_angle
+from core_cv2.analysis.form_analysis import analyze_squat_form, analyze_pushup_form, analyze_curl_form
 
 # Import exercise detectors
 try:
-    from core_cv.detection.exercises import SquatDetector, PushupDetector, CurlDetector
+    from core_cv2.detection.exercises import SquatDetector, PushupDetector, CurlDetector
 except ImportError as e:
     print(f"Warning: Could not import exercise detectors: {e}")
     # Create dummy classes

@@ -8,7 +8,7 @@ Arranged in nominal and edge cases.
 """
 import pytest
 
-from core_cv.exercises.bicep_curl_detector import BicepCurlDetector, CurlState
+from core_cv2.exercises.bicep_curl_detector import BicepCurlDetector, CurlState
 from config.app_constants import CURL_THRESHOLDS
 
 

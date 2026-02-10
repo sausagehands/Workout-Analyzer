@@ -8,7 +8,7 @@ Arranged in nominal and edge cases.
 """
 import pytest
 
-from core_cv.exercises.pushup_detector import PushupDetector, PushupState
+from core_cv2.exercises.pushup_detector import PushupDetector, PushupState
 from config.app_constants import PUSHUP_THRESHOLDS
 
 

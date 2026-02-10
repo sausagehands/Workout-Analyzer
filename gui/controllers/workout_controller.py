@@ -6,8 +6,8 @@ import subprocess
 import platform
 import cv2
 from typing import Dict, Any, Optional, List
-from models.workout_state import WorkoutState, WorkoutStats
-from models.workout_session import WorkoutSession
+from models2.workout_state import WorkoutState, WorkoutStats
+from models2.workout_session import WorkoutSession
 import gui.config.constants as config
 
 

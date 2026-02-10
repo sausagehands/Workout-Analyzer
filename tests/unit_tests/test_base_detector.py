@@ -5,7 +5,7 @@ stub subclass. Arranged in nominal and edge cases.
 """
 import pytest
 
-from core_cv.detection.detector_blueprint import ExerciseDetector
+from core_cv2.detection.detector_blueprint import ExerciseDetector
 
 
 # ---------------------------------------------------------------------------

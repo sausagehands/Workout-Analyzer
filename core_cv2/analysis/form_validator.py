@@ -2,7 +2,7 @@
 Thin manager for per-exercise form validators.
 Selects the appropriate validator and delegates all work to it.
 """
-from core_cv.validation import SquatValidator, PushupValidator, CurlValidator
+from core_cv2.validation import SquatValidator, PushupValidator, CurlValidator
 
 
 class FormValidator:

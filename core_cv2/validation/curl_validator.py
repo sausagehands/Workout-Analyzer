@@ -1,5 +1,5 @@
-from core_cv.analysis.landmark_utils import get_avg_landmark_y
-from core_cv.analysis.smoothing import MovingAverage
+from core_cv2.analysis.landmark_utils import get_avg_landmark_y
+from core_cv2.analysis.smoothing import MovingAverage
 from config.app_constants import CURL_THRESHOLDS
 from .rep_history import RepHistoryTracker
 

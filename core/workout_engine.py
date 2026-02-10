@@ -9,9 +9,9 @@ import threading
 from enum import Enum
 from database.workout_database import WorkoutDatabase
 from cv.pose_detection import PoseDetector
-from core_cv.detection.exercises import SquatDetector, PushupDetector, BicepCurlDetector
-from core_cv.analysis.form_analysis import analyze_squat_form, analyze_pushup_form, analyze_curl_form
-from core_cv.validation import SquatValidator, PushupValidator, CurlValidator
+from core_cv2.detection.exercises import SquatDetector, PushupDetector, BicepCurlDetector
+from core_cv2.analysis.form_analysis import analyze_squat_form, analyze_pushup_form, analyze_curl_form
+from core_cv2.validation import SquatValidator, PushupValidator, CurlValidator
 from config.user_config import UserConfig
 from config.app_constants import SQUAT_THRESHOLDS, PUSHUP_THRESHOLDS, CURL_THRESHOLDS
 
