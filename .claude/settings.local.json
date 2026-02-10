@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(/Users/feed_the_pancake/Documents/ada/Capstone_MediaPipe_Legacy/Workout_Analyzer/venv/bin/pip install:*)",
+      "Bash(/Users/feed_the_pancake/Documents/ada/Capstone_MediaPipe_Legacy/Workout_Analyzer/venv/bin/python -m pytest:*)",
+      "Bash(venv/bin/python -m pytest:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(./venv/bin/pytest:*)",
+      "Bash(PYTHONPATH=. ./venv/bin/pytest:*)",
+      "Bash(pyinstaller:*)",
+      "Bash(timeout 8 /Users/feed_the_pancake/Documents/ada/Capstone_MediaPipe_Legacy/Workout_Analyzer/dist/WorkoutAnalyzer/WorkoutAnalyzer:*)",
+      "Bash(/Users/feed_the_pancake/Documents/ada/Capstone_MediaPipe_Legacy/Workout_Analyzer/dist/WorkoutAnalyzer/WorkoutAnalyzer)",
+      "Bash(sqlite3:*)",
+      "Bash(git rm:*)",
+      "Bash(xargs git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate .gitignore with standard Python ignores\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)"
+    ]
+  }
+}
