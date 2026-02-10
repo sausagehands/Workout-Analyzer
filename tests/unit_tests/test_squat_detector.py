@@ -8,7 +8,7 @@ Arranged in nominal and edge cases.
 """
 import pytest
 
-from core_cv2.exercises.squat_detector import SquatDetector, SquatState
+from core_cv.exercises.squat_detector import SquatDetector, SquatState
 from config.app_constants import SQUAT_THRESHOLDS
 
 

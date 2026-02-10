@@ -1,4 +1,4 @@
-from core_cv2.analysis.angle_math import calculate_angle
+from core_cv.analysis.angle_math import calculate_angle
 from config.app_constants import LANDMARKS, VISIBILITY_THRESHOLD
 
 

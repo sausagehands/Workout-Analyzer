@@ -3,7 +3,7 @@ Pushup exercise detector
 Tracks pushup repetitions using elbow angle
 """
 from enum import Enum
-from core_cv2.detection.detector_blueprint import ExerciseDetector
+from core_cv.detection.detector_blueprint import ExerciseDetector
 from config.app_constants import PUSHUP_THRESHOLDS
 
 """

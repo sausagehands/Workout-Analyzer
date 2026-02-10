@@ -14,9 +14,9 @@ Back angle thresholds (degrees):
 """
 import pytest
 
-from core_cv2.analysis.form_validator import FormValidator
-from core_cv2.analysis.smoothing import MovingAverage
-from core_cv2.validation.rep_history import RepHistoryTracker
+from core_cv.analysis.form_validator import FormValidator
+from core_cv.analysis.smoothing import MovingAverage
+from core_cv.validation.rep_history import RepHistoryTracker
 from config.app_constants import LANDMARKS, VISIBILITY_THRESHOLD
 
 
@@ -119,7 +119,7 @@ class TestInitNominal:
         assert 'curl' in validator._validators
 
     def test_get_validator_returns_instance(self, validator):
-        from core_cv2.validation import SquatValidator
+        from core_cv.validation import SquatValidator
         assert isinstance(validator.get_validator('squat'), SquatValidator)
 
 
