@@ -35,3 +35,7 @@ workouts.db
 pyinstaller_helper.py
 find_non_py_files.py
 clean_hidden_finder.py
+
+# Local tool settings
+.claude/
+*.backup
